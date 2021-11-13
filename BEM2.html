@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <style>
+        body {
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 25px;
+            padding-bottom: 50px;
+        }
+
+        .main__card_header {
+            font-family: Intro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            line-height: 120%;
+            color: #000000;
+        }
+
+        .main__card {
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 50%;
+        }
+
+
+
+        .main__card_text {
+            font-family: Roboto Slab;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 160%;
+            color: #000000;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        .main {
+            display: flex;
+            justify-content: end;
+
+
+        }
+
+        .main__picture {
+            width: 100%;
+            height: 100%;
+            padding-left: 120px;
+            padding-top: 30px;
+        }
+
+        .header_row-2 {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 25px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 30px;
+
+        }
+
+        .nav__link {
+            margin: 10px;
+            color: #rgba(82, 34, 208, 1);
+            text-decoration: none;
+            font-family: Roboto Slab;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 160%;
+        }
+
+        .header_row-2__button {
+            border-radius: 35px;
+            background-color: rgba(82, 34, 208, 1);
+            color: white;
+            border-color: rgba(82, 34, 208, 1);
+            font-family: Intro;
+            font-style: regular;
+            font-size: 13px;
+            width: 115px;
+            height: 38px;
+        }
+
+        .main__card_button {
+            border-radius: 35px;
+            background-color: rgba(82, 34, 208, 1);
+            color: white;
+            border-color: rgba(82, 34, 208, 1);
+            font-family: Intro;
+            font-style: regular;
+            font-size: 35px;
+            width: 270px;
+            height: 84px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_row-1">
+            <div class="header_row-1__control-buttons">
+                <button class="header_row-1__control-buttons control-buttons_red"></button>
+                <button class="header_row-1__control-buttons control-buttons_yellow"></button>
+                <button class="header_row-1__control-buttons control-buttons_green"></button>
+            </div>
+            <h5 class="header__text">VR</h5>
+        </div>
+        <div class="header_row-2">
+            <img class="header_row-2__logo" src="logo.png" alt="logo">
+            <button class="header_row-2__button">Корзина</button>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__card">
+            <h2 class="main__card_header">ВИРТУАЛЬНАЯ <br /> РЕАЛЬНОСТЬ <br /> БЕЗ ПРОВОДОВ</h2>
+            <p class="main__card_text">Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем без проводов и дорогих комьютеров.
+            </p>
+            <button class="main__card_button">КУПИТЬ</button>
+        </div>
+        <div>
+            <img class="main__picture" src="pic.png" alt="illustration">
+        </div>
+    </main>
+    <footer>
+        <nav class="nav">
+            <a class="nav__link" href="#">Возможности</a>
+            <a class="nav__link" href="#">Где купить</a>
+            <a class="nav__link" href="#">Доставка</a>
+            <a class="nav__link" href="#">Помощь</a>
+        </nav>
+    </footer>
+</body>

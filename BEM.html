@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <style>
+        body {
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 25px;
+            padding-bottom: 50px;
+        }
+
+        .main__header {
+            font-family: Intro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            line-height: 120%;
+            color: #000000;
+            padding-left: 30px;
+        }
+
+        .card {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .card__image {
+            width: 100%;
+            height: 278px;
+        }
+
+        .card__body {
+            width: 100%;
+        }
+
+        .card__body_title {
+            font-family: Intro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 120%;
+            color: #000000;
+        }
+
+        .card__body_text {
+            font-family: Roboto Slab;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 160%;
+            color: #000000;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            justify-content: space-around;
+
+
+        }
+
+        .header_row-2 {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 25px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 30px;
+
+        }
+
+        .nav__link {
+            margin: 10px;
+            color: #000000;
+            text-decoration: none;
+            font-family: Roboto Slab;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 160%;
+        }
+
+        .header_row-2__button,
+        .subscription-form__button {
+            border-radius: 35px;
+            background-color: rgba(82, 34, 208, 1);
+            color: white;
+            border-color: rgba(82, 34, 208, 1);
+            font-family: Intro;
+            font-style: regular;
+            font-size: 13px;
+            width: 115px;
+            height: 38px;
+        }
+
+        .subscription-form {
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(236, 97, 91, 1);
+            width: 100%;
+            height: 233px;
+            margin-top: 20px;
+        }
+
+        .subscription-form__input {
+            width: 323px;
+            height: 50px;
+            align-self: center;
+            margin-top: -30px;
+            margin-bottom: 15px;
+        }
+
+        .subscription-form__title {
+            margin-top: 30px;
+        }
+
+        .subscription-form__title,
+        .subscription-form__button {
+            margin-left: 30px;
+        }
+
+        .subscription-form__title {
+            font-family: Intro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 120%;
+            color: #FFFFFF;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_row-1">
+            <div class="header_row-1__control-buttons">
+                <button class="header_row-1__control-buttons control-buttons_red"></button>
+                <button class="header_row-1__control-buttons control-buttons_yellow"></button>
+                <button class="header_row-1__control-buttons control-buttons_green"></button>
+            </div>
+            <h5 class="header__text">VR</h5>
+        </div>
+        <div class="header_row-2">
+            <img class="header_row-2__logo" src="logo.png" alt="logo">
+            <button class="header_row-2__button">Корзина</button>
+        </div>
+    </header>
+    <main class="main">
+        <h2 class="main__header">ВОЗМОЖНОСТИ</h2>
+        <div class="grid-container">
+            <div class="card">
+                <img src="Illustration_2.png" class="card__image" alt="...">
+                <div class="card__body">
+                    <h5 class="card__body_title">БЕЗ ПРОВОДОВ</h5>
+                    <p class="card__body_text">Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни
+                        большое помещение, чтобы расставить трекеры.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Illustration_4.png" class="card__image" alt="...">
+                <div class="card__body">
+                    <h5 class="card__body_title">БЕЗ КОМПЬЮТЕРА</h5>
+                    <p class="card__body_text">Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры. Наш
+                        шлем
+                        запускает игры из облака, поэтому просто наслаждайтесь.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Illustration_9.png" class="card__image" alt="...">
+                <div class="card__body">
+                    <h5 class="card__body_title">ДО 10 ЧАСОВ РАБОТЫ</h5>
+                    <p class="card__body_text">Несмотря на компактность и производительность, шлем может работать до 10 часов — даже, если вы играете в самые ресурсоемкие игры.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__body">
+                    <h5 class="card__body_title">СОТНИ ИГР</h5>
+                    <p class="card__body_text">Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще больше.
+
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__body">
+                    <h5 class="card__body_title">ПОЧТИ ДАРОМ</h5>
+                    <p class="card__body_text">По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы существенно экономите на мощном компьютере.
+                    </p>
+                </div>
+            </div>
+            <div class="subscription-form">
+                <h5 class="subscription-form__title">НОВОСТИ</h5>
+                <input class="subscription-form__input" name="email" type="text" placeholder="Эл. почта" />
+                <div>
+                    <button class="subscription-form__button">Подписаться</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav class="nav">
+            <a class="nav__link" href="#">Возможности</a>
+            <a class="nav__link" href="#">Где купить</a>
+            <a class="nav__link" href="#">Доставка</a>
+            <a class="nav__link" href="#">Помощь</a>
+        </nav>
+    </footer>
+</body>
